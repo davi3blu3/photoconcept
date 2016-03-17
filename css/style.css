@@ -5,17 +5,54 @@ body {
 }
 
 .row {
-	margin: 3px;
 	position: relative;
 }
 
 .image {
-	width: 33.58%;
 	display: inline-block;
-	margin: -3px;
+	margin: 0;
+	width: 32%;
+	height: 300px;
 	position: relative;
+	text-align: center;
 }
 
 img {
 	width: 100%;	
+}
+
+.one {
+	background-color: red;
+	border: 2px solid yellow;
+	color: yellow;
+}
+
+.two {
+	background-color: green;
+	border: 2px solid purple;	
+	color: purple;
+}
+
+.three {
+	background-color: orange;
+	border: 2px solid red;
+	color: red;
+}
+
+.four {
+	background-color: blue;
+	border: 2px solid green;
+	color: green;
+}
+
+.five {
+	background-color: yellow;
+	border: 2px solid orange;
+	color: orange;
+}
+
+.six {
+	background-color: purple;
+	border: 2px solid blue;
+	color: blue;
 }
